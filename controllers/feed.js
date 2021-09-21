@@ -1,2 +1,10 @@
-exports.getPosts = (req, res, next) => {};
-
+exports.getPosts = (req, res, next) => {
+  res.status(200).json({
+    posts: [
+      {
+        title: 'Lorem',
+        content: 'Ipsum dolor',
+      },
+    ],
+  });
+};

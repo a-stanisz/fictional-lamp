@@ -4,6 +4,8 @@ const feedRoutes = require('./routes/feed');
 
 const app = express();
 
-app.use('/feed', feedRoutes);
+app.use(express.json());
+
+app.use('/feed', feedRoutes.get);
 
 app.listen(8080);
