@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 
 const feedRoutes = require('./routes/feed');
 
@@ -20,9 +21,16 @@ app.use('/feed', feedRoutes);
 
 const startup = async () => {
   const PORT = process.env.PORT;
+  const DB_CONN_STR = process.env.DB_CONN_STR;
   console.log('Hello');
-  app.listen(PORT);
-  console.log(`Connected at port: ${PORT}!`);
+  mongoose
+    .connect(DB_CONN_STR)
+    .then(() => {
+      console.log('Connected to the database')
+      app.listen(PORT);
+      console.log(`Connected at port: ${PORT}!`);
+    })
+    .catch(error => error);
 };
 
 startup().catch((error) => console.log(error));
