@@ -32,7 +32,7 @@ app.use((error, req, res, next) => {
 const startup = async () => {
   const PORT = process.env.PORT;
   const DB_CONN_STR = process.env.DB_CONN_STR;
-  console.log('Hello');
+  console.log('Startup...');
   mongoose
     .connect(DB_CONN_STR)
     .then(() => {
@@ -40,7 +40,10 @@ const startup = async () => {
       app.listen(PORT);
       console.log(`Connected at port: ${PORT}!`);
     })
-    .catch((error) => error);
+    .catch((error) => {
+      console.log('...failed');
+      console.log(error);
+    });
 };
 
-startup().catch((error) => console.log(error));
+startup()
