@@ -68,8 +68,12 @@ const startup = async () => {
     .connect(DB_CONN_STR)
     .then(() => {
       console.log('Connected to the database');
-      app.listen(PORT);
+      const server = app.listen(PORT);
       console.log(`Connected at port: ${PORT}!`);
+      const io = require('socket.io')(server);
+      io.on('connection', socket => {
+        console.log('Client connected');
+      })
     })
     .catch((error) => {
       console.log('...failed');
