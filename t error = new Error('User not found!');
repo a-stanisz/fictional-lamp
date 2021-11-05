@@ -1,0 +1,95 @@
+[33mcommit b4f4fb08d6e6913adcb67310ed93e0be9938611c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Fri Nov 5 11:56:15 2021 +0100
+
+    Add user signup
+
+[33mcommit 6d6290b34fb638f37ef6d718e8147a0e7566538a[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Fri Nov 5 11:33:12 2021 +0100
+
+    Add signup validation
+
+[33mcommit 10b898ae33f05c3827c665eab2a340fc6203e1cf[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Fri Nov 5 11:14:26 2021 +0100
+
+    Add a user model
+
+[33mcommit 78803ec28cf2954bf86c95dca644e6a2f55bb5bf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Thu Nov 4 15:09:13 2021 +0100
+
+    Add pagination
+
+[33mcommit 547145a817426ae6f8f00493f3098c8d8a4bb281[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Thu Nov 4 14:16:39 2021 +0100
+
+    Add updating posts
+
+[33mcommit af620bd6c96f2ce58a5fd8701dd8856b3a7d24d8[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Thu Nov 4 13:30:50 2021 +0100
+
+    Add images uploading
+
+[33mcommit ef8f3985a63fa1994cad8e61ceb307055bf71047[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Thu Nov 4 12:44:57 2021 +0100
+
+    Add single and all posts fetching from the db, fix image fetch
+
+[33mcommit 16f9be79edf5478375ddf12075cd1cb99ab475d5[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Wed Nov 3 16:06:03 2021 +0100
+
+    Minor patch
+
+[33mcommit 18a627297f7889cc9c42c16939b70675a7039b7a[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Wed Oct 13 15:32:56 2021 +0200
+
+    Add static imgs serving, improve error handling
+
+[33mcommit f310a43ff570b5f49bc6f952aa66bdda46a4a799[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Wed Oct 13 13:37:46 2021 +0200
+
+    Add storing posts in the db
+
+[33mcommit f576ca63f1a4813f487ae0bdb5f0e96bc52bb7ea[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Wed Oct 13 11:36:40 2021 +0200
+
+    Add a post model
+
+[33mcommit 1f1097ca7e4e9dcc2b1e6cc9440c5a3bb78e81c8[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Mon Oct 4 07:46:30 2021 +0200
+
+    Add server side validation
+
+[33mcommit 7974b7de055fc2286c9aca7909cf7631694bbe10[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Mon Sep 27 14:18:07 2021 +0200
+
+    Set CORS by headers instead cors npm module
+
+[33mcommit 23132b007c42275502ea5a68bc33030994a582a0[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Fri Sep 24 22:18:33 2021 +0200
+
+    Make the app working, having get and post routes for testing
+
+[33mcommit cfbf5683df0ef3f2b274a58bf27f7f47147cfa27[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Tue Sep 21 16:53:38 2021 +0200
+
+    Add example json data to parse. Doesn't work, probably because of CORS policy
+
+[33mcommit a1cb61f1083f4d0cc345b3b2abbe7cdf67b5bcbf[m
+Author: a-stanisz <hello@adamstaniszewski.com>
+Date:   Mon Sep 20 16:06:51 2021 +0200
+
+    Initial setup
